@@ -88,6 +88,12 @@ hr {
   font-style: italic;
   font-weight: 500;
 }
+
+.recent-projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .trombone {
   border-radius: 15px;
   box-shadow: 10px 10px 20px rgba(193, 199, 215, 0.2);
