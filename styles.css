@@ -19,15 +19,17 @@ li {
   display: inline-block;
   margin: 20px;
 }
+a {
+  color: #b6a522;
+  text-decoration: none;
+}
 .heading-links {
   color: #22201c;
   text-decoration: none;
 }
+a:hover,
 .heading-links:hover {
   text-decoration: underline;
-}
-a {
-  text-decoration: none;
 }
 h1 {
   background-color: rgba(193, 199, 215, 30%);
@@ -56,7 +58,7 @@ button {
   display: block;
   font-size: 14px;
   margin: 0 auto;
-  padding: 10px 7px;
+  padding: 10px 15px;
   text-decoration: none;
 }
 button:hover {
