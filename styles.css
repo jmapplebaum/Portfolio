@@ -47,7 +47,9 @@ h2 {
   line-height: 25px;
 }
 p {
+  font-size: 16px;
   line-height: 28px;
+  opacity: 75%;
 }
 button {
   background-color: #b6a522;
@@ -101,14 +103,15 @@ footer {
   justify-content: space-evenly;
 }
 
-.trombone {
+.projects {
+  border: 2px solid #c1c7d7;
   border-radius: 15px;
   box-shadow: 10px 10px 20px rgba(193, 199, 215, 0.2);
   display: block;
   margin: 0 auto;
   width: 300px;
 }
-.trombone:hover {
+.projects:hover {
   cursor: pointer;
   transform: scale(1.05, 1.05);
 }
