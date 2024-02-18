@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link rel="stylesheet" href="world-clock.css" />
+    <title>World Clock by Jennah Applebaum</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select id="cities-select">
+        <option value="">Select a city</option>
+        <option value="current">Current Location</option>
+        <option value="Europe/London">London 🇬🇧</option>
+        <option value="Europe/Paris">Paris 🇫🇷</option>
+        <option value="Asia/Jerusalem">Jerusalem 🇮🇱</option>
+        <option value="Asia/Tokyo">Tokyo 🇯🇵</option>
+        <option value="Australia/Sydney">Sydney 🇦🇺</option>
+      </select>
+      <div id="cities-container">
+        <div class="cities" id="Honolulu">
+          <div>
+            <h2>Honolulu</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="cities" id="Denver">
+          <div>
+            <h2>Denver</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="cities" id="New-York">
+          <div>
+            <h2>New York</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      This project was coded by
+      <a href="https://github.com/jmapplebaum" target="_blank"
+        >Jennah Applebaum</a
+      >
+      and is
+      <a href="https://github.com/jmapplebaum/World-Clock" target="_blank"
+        >open-sourced on GitHub</a
+      >
+    </footer>
+    <script src="world-clock.js"></script>
+  </body>
+</html>
