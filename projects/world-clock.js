@@ -48,7 +48,7 @@ function addCity(event) {
         </div>
         
         <br />
-        <a href="/"> Reset cities
+        <a href="https://jennahcodes.com/projects/world-clock"> Reset cities
       </a>`;
 }
 
