@@ -49,9 +49,7 @@ button {
   border-radius: 20px;
   box-shadow: 10px 10px 20px rgba(193, 199, 215, 0.2);
   color: #f0e7e7;
-  display: block;
-  font-size: 14px;
-  margin: 0 auto;
+  font-size: 16px;
   padding: 10px 15px;
   text-decoration: none;
 }
@@ -99,7 +97,7 @@ footer {
   transform: scale(1.05, 1.05);
 }
 .contact-me {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 1.5;
   padding-top: 75px;
