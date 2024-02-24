@@ -99,4 +99,5 @@ footer {
 
 .footer-icons a:hover {
   text-decoration: none;
+  transform: scale(1.05, 1.05);
 }
