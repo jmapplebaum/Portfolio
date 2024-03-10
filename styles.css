@@ -1,16 +1,23 @@
+:root {
+  --accent-color: #f582ae;
+  --accent-color-two: #8bd3dd;
+  --background-color: #f3d2c1;
+  --dark-color: #001858;
+  --light-color: #fef6e4;
+}
 body {
-  background-color: #e5e2db;
-  color: #22201c;
+  background-color: var(--background-color);
+  color: var(--dark-color);
   font-family: "Questrial", sans-serif;
   font-weight: 400;
   text-align: center;
 }
 a {
-  color: #b6a522;
+  color: var(--accent-color);
   text-decoration: none;
 }
 .header a {
-  color: #22201c;
+  color: var(--dark-color);
   font-family: "Space Mono", monospace;
   font-weight: 500;
   text-decoration: none;
@@ -20,7 +27,7 @@ a:hover,
   text-decoration: underline;
 }
 h1 {
-  background-color: rgba(193, 199, 215, 30%);
+  background-color: rgba(243, 210, 193, 40%);
   width: max-content;
   margin: 0 auto;
   padding: 10px 10px;
@@ -29,7 +36,7 @@ h1 {
   line-height: 40px;
 }
 h2 {
-  color: #b6a522;
+  color: var(--accent-color);
   font-family: "Space Mono", monospace;
   font-weight: 700;
   line-height: 25px;
@@ -44,11 +51,11 @@ p {
   opacity: 75%;
 }
 button {
-  background-color: #b6a522;
-  border: 2px solid #c1c7d7;
+  background-color: var(--accent-color-two);
+  border: 2px solid var(--dark-color);
   border-radius: 20px;
   box-shadow: 10px 10px 20px rgba(193, 199, 215, 0.2);
-  color: #f0e7e7;
+  color: var(--dark-color);
   font-size: 16px;
   padding: 10px 15px;
   text-decoration: none;
@@ -59,7 +66,7 @@ button:hover {
   transform: scale(1.05, 1.05);
 }
 hr {
-  border: 1px solid #c1c7d7;
+  border: 1px solid var(--accent-color-two);
   margin-top: 20px;
 }
 
@@ -68,8 +75,8 @@ footer {
 }
 
 .wrapper {
-  background-color: #f0e7e7;
-  border: 4px solid #c1c7d7;
+  background-color: var(--light-color);
+  border: 4px solid var(--accent-color-two);
   border-radius: 50px;
   padding: 40px;
   max-width: 100%;
@@ -87,7 +94,7 @@ footer {
 }
 
 .projects {
-  border: 2px solid #c1c7d7;
+  border: 2px solid var(--dark-color);
   border-radius: 15px;
   box-shadow: 10px 10px 20px rgba(193, 199, 215, 0.2);
   width: 300px;
