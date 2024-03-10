@@ -1,9 +1,9 @@
 :root {
-  --accent-color: #f582ae;
-  --accent-color-two: #8bd3dd;
-  --background-color: #f3d2c1;
-  --dark-color: #001858;
-  --light-color: #fef6e4;
+  --accent-color: #ea572a;
+  --accent-color-two: #e39828;
+  --background-color: #efbc9c;
+  --dark-color: #0b3f30;
+  --light-color: #ebd5b8;
 }
 body {
   background-color: var(--background-color);
@@ -27,7 +27,7 @@ a:hover,
   text-decoration: underline;
 }
 h1 {
-  background-color: rgba(243, 210, 193, 40%);
+  background-color: rgba(11, 63, 48, 20%);
   width: max-content;
   margin: 0 auto;
   padding: 10px 10px;
