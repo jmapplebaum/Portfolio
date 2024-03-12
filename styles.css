@@ -112,4 +112,10 @@ footer {
   .about-me-paragraph {
     text-align: center;
   }
+  button:hover {
+    transform: none;
+  }
+  .projects:hover {
+    transform: none;
+  }
 }
