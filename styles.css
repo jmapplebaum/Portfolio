@@ -23,8 +23,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: color-burn;
-  padding: 100px;
+  padding: 0;
+  margin: 0;
   color: white;
+  text-align: center;
 }
 .hero h2 {
   font-weight: 400;
@@ -66,6 +68,7 @@ button {
   color: var(--light-color);
   font-size: 16px;
   padding: 10px 15px;
+  margin-bottom: 20px;
   text-decoration: none;
 }
 button:hover {
@@ -123,10 +126,10 @@ footer {
     font-size: 54px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 32px;
   }
   h3 {
-    font-size: 24px;
+    font-size: 28px;
   }
   .hero h2 {
     font-size: 20px;
