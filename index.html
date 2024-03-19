@@ -21,45 +21,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Questrial&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Home | Jennah Applebaum, Front-end Developer</title>
+    <title>Jennah Applebaum, Front-end Developer</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <div class="container text-center">
-    <div class="d-flex justify-content-evenly mt-4 mb-4">
-      <span class="header">
-        <a href="/index.html">Home</a>
-      </span>
-      <span class="header">
-        <a href="/about.html">About</a>
-      </span>
-      <span class="header">
-        <a href="/projects.html">Projects</a>
-      </span>
-    </div>
-  </div>
   <body>
     <div class="container text-center">
-      <div class="wrapper">
-        <h1>
-          Hello, my name is
-          <br />
-          Jennah Applebaum
-        </h1>
-
-        <img
-          src="media/jennah.png"
-          class="profile-pic img-fluid"
-          alt="Front-end developer, Jennah Applebaum"
-        />
+      <div class="hero">
+        <h3>Hello, my name is</h3>
+        <h1>Jennah Applebaum</h1>
         <h2>
           <span class="title"> Front-end Developer </span>
           <br />
           based in Tulsa, OK
         </h2>
-        <p>passionate | creative | adaptable</p>
+        <br />
         <a
           href="mailto:jennahapplebaum@gmail.com"
           target="_blank"
@@ -67,10 +45,11 @@
           class="text-center"
           ><button class="p-3"><strong>contact me</strong></button></a
         >
-        <hr />
+      </div>
+      <div class="recent-projects">
         <h2>Recent projects:</h2>
         <div class="row">
-          <span class="col-md-4 mt-3">
+          <span class="col-md-6 mt-4">
             <a href="/projects/tulsa-landing-page.html" target="_blank">
               <img
                 src="media/tulsa-landing-page.png"
@@ -81,18 +60,7 @@
             <h3>Tulsa Landing Page</h3>
             <p>Responsive Design with HTML, CSS, & Embeds</p>
           </span>
-          <span class="col-md-4 mt-3">
-            <a href="/projects/world-clock.html" target="_blank">
-              <img
-                src="media/world-clock.png"
-                class="img-fluid projects"
-                alt="World Clock App"
-              />
-            </a>
-            <h3>World Clock</h3>
-            <p>HTML, CSS, & JS</p>
-          </span>
-          <span class="col-md-4 mt-3">
+          <span class="col-md-6 mt-4">
             <a href="/projects/weather-app.html" target="_blank">
               <img
                 src="media/weather-app.png"
@@ -104,34 +72,106 @@
             <p>HTML, CSS, JS, & API</p>
           </span>
         </div>
+          <div class="row">
+            <span class="col-md-4 mt-4">
+            <a href="/projects/world-clock.html" target="_blank">
+              <img
+                src="media/world-clock.png"
+                class="img-fluid projects"
+                alt="World Clock App"
+              />
+            </a>
+            <h3>World Clock</h3>
+            <p>HTML, CSS, & JS</p>
+          </span>
+          <span class="col-md-4 mt-4">
+            <a href="https://carrillomusic.com/" target="_blank">
+              <img
+                src="media/carrillo-music.png"
+                class="img-fluid projects"
+                alt="Carrillo Music"
+              />
+            </a>
+            <h3>Carrillo Music</h3>
+            <p>HTML, CSS, & Bootstrap</p>
+          </span>
+          <span class="col-md-4 mt-4">
+            <a href="/projects/scale-generator.html" target="_blank">
+              <img
+                src="media/scale-generator.png"
+                class="img-fluid projects"
+                alt="Scale Generator"
+              />
+            </a>
+            <h3>Random Scale Generator</h3>
+            <p>HTML, CSS, & JS</p>
+          </span>
+        </div>
+        <hr />
+        <h2>About Me</h2>
         <br />
-      </div>
+        <div class="row">
+          <span class="col-md-6">
+            <img
+              src="media/jennah.png"
+              class="profile-pic img-fluid"
+              alt="Jennah Applebaum, front-end developer"
+            />
+          </span>
+          <span class="col-md-6 mt-3 text-start">
+            <p class="about-me-paragraph">
+              Hello World! I'm Jennah Applebaum, a passionate front-end
+              developer located in the vibrant city of Tulsa, Oklahoma. My
+              journey into the world of coding began during my time as the
+              Marketing and Communications Manager for a nonprofit organization
+              in Bozeman, Montana. It was there that I discovered my interest in
+              web development and decided to delve deeper.
+              <br />
+              <br />
+              Fuelled by my innate curiosity and thirst for knowledge, I began
+              my coding journey through
+              <a
+                href="https://www.shecodes.io/graduates/112474-jennah-applebaum"
+                title="Jennah Applebaum on SheCodes"
+                target="_blank"
+                >SheCodes</a
+              >, where I quickly found myself captivated by the intricacies of
+              front-end development. Drawing from my diverse background in music
+              and education, I love to weave together logic, problem-solving,
+              and creativity to craft compelling digital experiences.
+              <br />
+              <br />
+              Let's build something together!
+            </p>
+          </span>
+        </div>
+        <hr />
+      <footer>
+        <br />
+        This website was designed and built by Jennah Applebaum
+        <br />
+        <div class="footer-icons mt-2">
+          <a
+            href="https://www.linkedin.com/in/jennah-applebaum/"
+            target="_blank"
+            title="Jennah Applebaum on LinkedIn"
+          >
+            <i class="bi bi-linkedin p-2" style="font-size: 2rem"></i
+          ></a>
+          <a
+            href="https://github.com/jmapplebaum"
+            target="_blank"
+            title="Jennah Applebaum on GitHub"
+            ><i class="bi bi-github p-2" style="font-size: 2rem"></i>
+          </a>
+          <a
+            href="mailto:jennahapplebaum@gmail.com"
+            target="_blank"
+            title="Email Jennah Applebaum"
+            ><i class="bi bi-envelope-at-fill p-2" style="font-size: 2rem"></i
+          ></a>
+        </div>
+      </footer>
     </div>
-    <footer>
-      <br />
-      This website was designed and built by Jennah Applebaum
-      <br />
-      <div class="footer-icons mt-2">
-        <a
-          href="https://www.linkedin.com/in/jennah-applebaum/"
-          target="_blank"
-          title="Jennah Applebaum on LinkedIn"
-        >
-          <i class="bi bi-linkedin p-2" style="font-size: 2rem"></i
-        ></a>
-        <a
-          href="https://github.com/jmapplebaum"
-          target="_blank"
-          title="Jennah Applebaum on GitHub"
-          ><i class="bi bi-github p-2" style="font-size: 2rem"></i>
-        </a>
-        <a
-          href="mailto:jennahapplebaum@gmail.com"
-          target="_blank"
-          title="Email Jennah Applebaum"
-          ><i class="bi bi-envelope-at-fill p-2" style="font-size: 2rem"></i
-        ></a>
-      </div>
-    </footer>
   </body>
 </html>

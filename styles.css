@@ -1,61 +1,63 @@
 :root {
-  --accent-color: #ea572a;
-  --accent-color-two: #e39828;
-  --background-color: #efbc9c;
-  --dark-color: #0b3f30;
-  --light-color: #ebd5b8;
+  --accent-color: #766585;
+  --accent-color-two: #b5779e;
+  --background-color: #998daf;
+  --light-color: #e6c8d8;
 }
 body {
   background-color: var(--background-color);
-  color: var(--dark-color);
-  font-family: "Questrial", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  text-align: center;
 }
-a {
-  color: var(--accent-color);
-  text-decoration: none;
+.hero {
+  background-image: linear-gradient(
+      rgba(80, 76, 109, 0.3),
+      rgba(80, 76, 109, 0.4)
+    ),
+    url(/media/hero-clouds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  padding: 100px;
+  color: white;
 }
-.header a {
-  color: var(--dark-color);
-  font-family: "Space Mono", monospace;
+.hero h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+.hero h3 {
   font-weight: 500;
-  text-decoration: none;
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin: 0;
 }
-a:hover,
-.header:hover {
-  text-decoration: underline;
+.title {
+  font-style: italic;
 }
 h1 {
-  background-color: rgba(11, 63, 48, 20%);
-  width: max-content;
-  margin: 0 auto;
-  padding: 10px 10px;
-  font-family: "Space Mono", monospace;
+  font-size: 96px;
   font-weight: 700;
-  line-height: 40px;
 }
 h2 {
-  color: var(--accent-color);
-  font-family: "Space Mono", monospace;
+  font-size: 60px;
   font-weight: 700;
-  line-height: 25px;
-  margin-top: 10px;
 }
 h3 {
-  margin-top: 5px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 p {
   font-size: 16px;
-  line-height: 28px;
+  line-height: 1.5;
   opacity: 75%;
 }
 button {
   background-color: var(--accent-color-two);
-  border: 2px solid var(--dark-color);
-  border-radius: 20px;
+  border: 2px solid var(--light-color);
+  border-radius: 30px;
   box-shadow: 10px 10px 20px rgba(193, 199, 215, 0.2);
-  color: var(--dark-color);
+  color: var(--light-color);
   font-size: 16px;
   padding: 10px 15px;
   text-decoration: none;
@@ -65,50 +67,70 @@ button:hover {
   text-decoration: none;
   transform: scale(1.05, 1.05);
 }
+a {
+  color: var(--accent-color);
+}
+footer a {
+  text-decoration: none;
+}
+a:hover,
+.header:hover {
+  text-decoration: underline;
+}
 hr {
-  border: 1px solid var(--accent-color-two);
+  border: 1px solid var(--accent-color);
   margin-top: 20px;
 }
 
 footer {
-  margin: 30px auto;
+  margin: 20px auto;
 }
-
-.wrapper {
+.recent-projects {
   background-color: var(--light-color);
-  border: 4px solid var(--accent-color-two);
-  border-radius: 50px;
-  padding: 40px;
-  max-width: 100%;
+  padding: 50px;
+}
+.projects {
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(193, 199, 215, 0.2);
+  width: 275px;
+}
+.projects:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
 }
 .profile-pic {
   border-radius: 180px;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  width: 300px;
+  width: 350px;
 }
-.title {
-  font-style: italic;
-  font-weight: 500;
+.about-me-paragraph {
+  text-align: left;
 }
-
-.projects {
-  border: 2px solid var(--dark-color);
-  border-radius: 15px;
-  box-shadow: 10px 10px 20px rgba(193, 199, 215, 0.2);
-  width: 300px;
-}
-.projects:hover {
-  cursor: pointer;
-  transform: scale(1.05, 1.05);
-}
-
 .footer-icons a:hover {
   text-decoration: none;
   transform: scale(1.05, 1.05);
 }
-@media (max-width: 576px) {
+@media (max-width: 860px) {
+  h1 {
+    font-size: 54px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+  .hero h3 {
+    font-size: 12px;
+  }
+  .title {
+    font-style: normal;
+  }
   .about-me-paragraph {
     text-align: center;
   }
