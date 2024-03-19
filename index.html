@@ -9,6 +9,12 @@
       content="Jennah Applebaum is a front-end developer based in Tulsa, Oklahoma. Learn more about her and her recent projects at jennahcodes.com"
     />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
@@ -42,8 +48,8 @@
       </div>
       <div class="recent-projects">
         <h2>Recent projects:</h2>
-        <div class="grid">
-          <span>
+        <div class="row">
+          <span class="col-md-6 mt-4">
             <a href="/projects/tulsa-landing-page.html" target="_blank">
               <img
                 src="media/tulsa-landing-page.png"
@@ -54,7 +60,7 @@
             <h3>Tulsa Landing Page</h3>
             <p>Responsive Design with HTML, CSS, & Embeds</p>
           </span>
-          <span>
+          <span class="col-md-6 mt-4">
             <a href="/projects/weather-app.html" target="_blank">
               <img
                 src="media/weather-app.png"
@@ -66,8 +72,8 @@
             <p>HTML, CSS, JS, & API</p>
           </span>
         </div>
-          <div class="grid">
-            <span>
+          <div class="row">
+            <span class="col-md-4 mt-4">
             <a href="/projects/world-clock.html" target="_blank">
               <img
                 src="media/world-clock.png"
@@ -78,7 +84,7 @@
             <h3>World Clock</h3>
             <p>HTML, CSS, & JS</p>
           </span>
-          <span>
+          <span class="col-md-4 mt-4">
             <a href="https://carrillomusic.com/" target="_blank">
               <img
                 src="media/carrillo-music.png"
@@ -89,7 +95,7 @@
             <h3>Carrillo Music</h3>
             <p>HTML, CSS, & Bootstrap</p>
           </span>
-          <span>
+          <span class="col-md-4 mt-4">
             <a href="/projects/scale-generator.html" target="_blank">
               <img
                 src="media/scale-generator.png"
@@ -104,16 +110,16 @@
         <hr />
         <h2>About Me</h2>
         <br />
-        <div class="grid-two-column">
-          <span>
+        <div class="row">
+          <span class="col-md-6">
             <img
               src="media/jennah.png"
               class="profile-pic img-fluid"
               alt="Jennah Applebaum, front-end developer"
             />
           </span>
-          <span class="about-me-paragraph">
-            <p>
+          <span class="col-md-6 mt-3 text-start">
+            <p class="about-me-paragraph">
               Hello World! I'm Jennah Applebaum, a passionate front-end
               developer located in the vibrant city of Tulsa, Oklahoma. My
               journey into the world of coding began during my time as the
@@ -144,7 +150,7 @@
         <br />
         This website was designed and built by Jennah Applebaum
         <br />
-        <div>
+        <div class="footer-icons mt-2">
           <a
             href="https://www.linkedin.com/in/jennah-applebaum/"
             target="_blank"

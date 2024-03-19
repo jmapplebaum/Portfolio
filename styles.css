@@ -8,7 +8,6 @@ body {
   background-color: var(--background-color);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  text-align: center;
 }
 .hero {
   background-image: linear-gradient(
@@ -25,7 +24,6 @@ body {
 .hero h2 {
   font-weight: 400;
   font-size: 40px;
-  margin: 0;
 }
 .hero h3 {
   font-weight: 500;
@@ -39,7 +37,6 @@ body {
 h1 {
   font-size: 96px;
   font-weight: 700;
-  margin: 0;
 }
 h2 {
   font-size: 60px;
@@ -62,7 +59,7 @@ button {
   box-shadow: 10px 10px 20px rgba(193, 199, 215, 0.2);
   color: var(--light-color);
   font-size: 16px;
-  padding: 20px 15px;
+  padding: 10px 15px;
   text-decoration: none;
 }
 button:hover {
@@ -95,15 +92,7 @@ footer {
 .projects {
   border-radius: 15px;
   box-shadow: 10px 10px 20px rgba(193, 199, 215, 0.2);
-  width: 275px;
-}
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.grid-two-column {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  width: 300px;
 }
 .projects:hover {
   cursor: pointer;
@@ -113,6 +102,7 @@ footer {
   border-radius: 180px;
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
   width: 350px;
 }
 .about-me-paragraph {
