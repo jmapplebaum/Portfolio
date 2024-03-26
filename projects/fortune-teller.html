@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/projects/fortune-teller-src/fortune-teller.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <title>AI Fortune Teller by Jennah Applebaum</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI Fortune Teller 🔮</h1>
+      </header>
+      <main>
+        <div class="fortune-form">
+          <form id="fortune-input">
+            <input
+              type="text"
+              placeholder="What information do you seek?"
+              autocomplete="off"
+              required
+              class="prediction-topic"
+              id="user-input"
+            />
+            <input type="submit" value="Tell me my luck" class="luck-button" />
+          </form>
+          <p>i.e. Wellness, Career, Love</p>
+        </div>
+      </main>
+      <div class="fortune-paragraph hidden" id="fortune"></div>
+      <footer>
+        This project was coded by
+        <a
+          href="https://jennahcodes.com/"
+          target="_blank"
+          title="Jennah Applebaum, front-end developer"
+          >Jennah Applebaum</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/jmapplebaum/AI-Fortune-Generator"
+          target="_blank"
+          title="GitHub Repository"
+          >GitHub</a
+        >
+      </footer>
+    </div>
+    <script src="fortune-teller-src/fortune-teller.js"></script>
+  </body>
+</html>
