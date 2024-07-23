@@ -1,5 +1,12 @@
+:root {
+  --wrapper-color: #e4f0fb;
+  --lighter-color: #90b1e9;
+  --darker-color: #6e90dd;
+  --text-color: #212945;
+}
+
 body {
-  background-color: #dfdef6;
+  background-color: var(--darker-color);
   color: black;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
@@ -15,7 +22,7 @@ h2 {
   font-size: 32px;
 }
 select {
-  background-color: rgba(153, 144, 221, 15%);
+  background-color: rgba(190, 211, 244, 80%);
   border-radius: 4px;
   display: block;
   font-size: 18px;
@@ -30,12 +37,12 @@ footer {
   text-align: center;
 }
 a {
-  color: #9990dd;
+  color: var(--text-color);
   font-weight: 300;
 }
 .container {
-  background-color: rgb(255, 255, 255, 90%);
-  border: 2px solid #c7c4ee;
+  background-color: var(--lighter-color);
+  border: 2px solid var(--text-color);
   border-radius: 20px;
   box-shadow: 10px 10px 15px rgba(168, 166, 180, 0.1);
   margin: 60px auto;
